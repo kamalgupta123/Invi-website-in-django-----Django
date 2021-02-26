@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load staticfiles %}
+    <section id="single-page-slider" class="no-margin">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="center gap fade-down section-heading">
+                                    <h2 class="main-title">Get In Touch</h2>
+                                    <hr>
+                                    <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+    </section><!--/#main-slider-->
+
+    <div id="content-wrapper">
+        <div id="mapwrapper">
+            <div id="map"></div>
+        </div>
+        <section id="contact" class="white">
+            <div class="container">
+                <div class="gap"></div>
+                <div class="row">
+                    <div class="col-md-4 fade-up">
+                        <h3>Contact Information</h3>
+                        <p><span class="icon icon-home"></span>Time Square, New York<br/>
+                            <span class="icon icon-phone"></span>+36 65984 405<br/>
+                            <span class="icon icon-mobile"></span>+36 65984 405<br/>
+                            <span class="icon icon-envelop"></span> <a href="#">email@infinityteam.com</a> <br/>
+                            <span class="icon icon-twitter"></span> <a href="#">@infinityteam.com</a> <br/>
+                            <span class="icon icon-facebook"></span> <a href="#">Infinity Agency</a> <br/>
+                        </p>
+                    </div><!-- col -->
+
+                    <div class="col-md-8 fade-up">
+                        <h3>Drop Us A Message</h3>
+                        <br>
+                        <br>
+                        <div id="message"></div>
+                        <form method="post" action="sendemail.php" id="contactform">
+                            <input type="text" name="name" id="name" placeholder="Name" />
+                            <input type="text" name="email" id="email" placeholder="Email" />
+                            <input type="text" name="website" id="website" placeholder="Website" />
+                            <textarea name="comments" id="comments" placeholder="Comments"></textarea>
+                            <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Submit" />
+                        </form>
+                    </div><!-- col -->
+                </div><!-- row -->
+                <div class="gap"></div>
+            </div>
+        </section>
+    </div>
+
+    <div id="footer-wrapper">
+        <section id="bottom" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 about-us-widget">
+                        <h4>Global Coverage</h4>
+                        <p>Was drawing natural fat respect husband. An as noisy an offer drawn blush place. These tried for way joy wrote witty. In mr began music weeks after at begin.</p>
+                    </div><!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Company</h4>
+                        <div>
+                            <ul class="arrow">
+                                <li><a href="#">Company Overview</a></li>
+                                <li><a href="#">Meet The Team</a></li>
+                                <li><a href="#">Our Awesome Partners</a></li>
+                                <li><a href="#">Our Services</a></li>
+                            </ul>
+                        </div>
+                    </div><!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Latest Articles</h4>
+                        <div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="widget-img" src="http://placehold.it/800x600" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <span class="media-heading"><a href="#">Blog Post A</a></span>
+                                    <small class="muted">Posted 14 April 2014</small>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <img class="widget-img" src="http://placehold.it/800x600" alt="">
+                                </div>
+                                <div class="media-body">
+                                    <span class="media-heading"><a href="#">Blog Post B</a></span>
+                                    <small class="muted">Posted 14 April 2014</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-3-->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>Come See Us</h4>
+                        <address>
+                            <strong>Ace Towers</strong><br>
+                            New York Ave,<br>
+                            New York, 215648<br>
+                            <abbr title="Phone"><i class="fa fa-phone"></i></abbr> 546 840654 05
+                        </address>
+                    </div> <!--/.col-md-3-->
+                </div>
+            </div>
+        </section><!--/#bottom-->
+{% endblock %} 
+       

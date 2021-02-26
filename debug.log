@@ -1,0 +1,392 @@
+(0.004) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.004) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"GET / HTTP/1.1" 200 63312
+"GET /static/webapp/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/webapp/css/pe-icons.css HTTP/1.1" 200 7002
+"GET /static/webapp/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/webapp/css/prettyPhoto.css HTTP/1.1" 200 19888
+"GET /static/webapp/css/style.css HTTP/1.1" 200 43709
+"GET /static/webapp/css/animate.css HTTP/1.1" 200 61623
+"GET /static/webapp/js/jquery.js HTTP/1.1" 200 93106
+"GET /static/webapp/js/custom.js HTTP/1.1" 200 1085
+"GET /static/webapp/js/html5shiv.js HTTP/1.1" 200 2376
+"GET /static/webapp/js/respond.min.js HTTP/1.1" 200 4035
+"GET /static/webapp/js/plugins.js HTTP/1.1" 200 100201
+"GET /static/webapp/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/webapp/js/jquery.prettyPhoto.js HTTP/1.1" 200 35295
+"GET /static/webapp/js/init.js HTTP/1.1" 200 7134
+"GET /static/webapp/images/invi.jpg HTTP/1.1" 200 34421
+"GET /static/webapp/images/logo_invi.png HTTP/1.1" 200 163590
+"GET /static/webapp/images/team/team01.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/team/team02.jpg HTTP/1.1" 200 65393
+"GET /static/webapp/images/team/team03.jpg HTTP/1.1" 200 47857
+"GET /static/webapp/images/team/team04.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/portfolio/folio01.jpg HTTP/1.1" 200 40957
+"GET /static/webapp/images/portfolio/folio02.jpg HTTP/1.1" 200 77082
+"GET /static/webapp/images/portfolio/folio03.jpg HTTP/1.1" 200 30357
+"GET /static/webapp/images/portfolio/folio04.jpg HTTP/1.1" 200 82659
+"GET /static/webapp/images/portfolio/folio05.jpg HTTP/1.1" 200 43410
+"GET /static/webapp/images/portfolio/folio06.jpg HTTP/1.1" 200 33329
+"GET /static/webapp/images/portfolio/folio07.jpg HTTP/1.1" 200 57631
+"GET /static/webapp/images/portfolio/folio08.jpg HTTP/1.1" 200 48190
+"GET /static/webapp/images/portfolio/folio09.jpg HTTP/1.1" 200 57698
+"GET /static/webapp/images/portfolio/folio11.jpg HTTP/1.1" 200 152771
+"GET /static/webapp/old-original/single-page/images/loading.GIF HTTP/1.1" 200 9389
+"GET /static/webapp/images/world-map.png HTTP/1.1" 200 3977
+"GET /static/webapp/images/bg/bg3.jpg HTTP/1.1" 200 298989
+"GET /static/webapp/images/bg/bg1.jpg HTTP/1.1" 200 659451
+"GET /static/webapp/images/bg/bg2.jpg HTTP/1.1" 200 183982
+"GET /static/webapp/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/webapp/fonts/Pe-icon-7-stroke.woff?-9uki6c HTTP/1.1" 200 23872
+"GET /static/webapp/images/marker.png HTTP/1.1" 200 581
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/kamal/.local/lib/python2.7/site-packages/django/template/base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3868
+"GET /register/ HTTP/1.1" 200 22637
+(0.007) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/kamal/.local/lib/python2.7/site-packages/django/template/base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /'
+"GET /' HTTP/1.1" 404 3850
+"GET / HTTP/1.1" 200 63312
+"GET /register/ HTTP/1.1" 200 22637
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET / HTTP/1.1" 200 63312
+"GET /static/webapp/images/invi.png HTTP/1.1" 200 110197
+"GET / HTTP/1.1" 200 63307
+"GET / HTTP/1.1" 200 63307
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET / HTTP/1.1" 200 63283
+"GET / HTTP/1.1" 200 63307
+"GET / HTTP/1.1" 200 63307
+"GET / HTTP/1.1" 200 63307
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+(0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"GET / HTTP/1.1" 200 63307
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+(0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+(0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+"GET / HTTP/1.1" 200 63307
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET / HTTP/1.1" 200 63282
+"GET / HTTP/1.1" 200 63306
+"GET / HTTP/1.1" 200 63306
+"GET / HTTP/1.1" 200 63306
+"GET / HTTP/1.1" 200 63306
+"GET / HTTP/1.1" 200 63306
+"GET / HTTP/1.1" 200 63306
+"GET / HTTP/1.1" 200 63306
+"GET /static/webapp/images/invi.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 63306
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET / HTTP/1.1" 200 63306
+"GET /static/webapp/images/invi.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 63306
+"GET /static/webapp/images/bg/bg2.jpg HTTP/1.1" 200 183982
+"GET / HTTP/1.1" 200 63306
+"GET /static/webapp/css/pe-icons.css HTTP/1.1" 200 7002
+"GET /static/webapp/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/webapp/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/webapp/css/prettyPhoto.css HTTP/1.1" 200 19888
+"GET /static/webapp/css/style.css HTTP/1.1" 200 43709
+"GET /static/webapp/css/animate.css HTTP/1.1" 200 61623
+"GET /static/webapp/js/respond.min.js HTTP/1.1" 200 4035
+"GET /static/webapp/js/jquery.js HTTP/1.1" 200 93106
+"GET /static/webapp/js/html5shiv.js HTTP/1.1" 200 2376
+"GET /static/webapp/js/custom.js HTTP/1.1" 200 1085
+"GET /static/webapp/js/plugins.js HTTP/1.1" 200 100201
+"GET /static/webapp/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/webapp/js/jquery.prettyPhoto.js HTTP/1.1" 200 35295
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET /static/webapp/js/init.js HTTP/1.1" 200 7134
+"GET /static/webapp/images/invi.png HTTP/1.1" 200 110197
+"GET /static/webapp/images/team/team02.jpg HTTP/1.1" 200 65393
+"GET /static/webapp/images/portfolio/folio01.jpg HTTP/1.1" 200 40957
+"GET /static/webapp/images/team/team03.jpg HTTP/1.1" 200 47857
+"GET /static/webapp/images/team/team04.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/team/team01.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/portfolio/folio03.jpg HTTP/1.1" 200 30357
+"GET /static/webapp/images/portfolio/folio04.jpg HTTP/1.1" 200 82659
+"GET /static/webapp/images/portfolio/folio02.jpg HTTP/1.1" 200 77082
+"GET /static/webapp/images/portfolio/folio05.jpg HTTP/1.1" 200 43410
+"GET /static/webapp/images/portfolio/folio06.jpg HTTP/1.1" 200 33329
+"GET /static/webapp/images/portfolio/folio07.jpg HTTP/1.1" 200 57631
+"GET /static/webapp/images/portfolio/folio08.jpg HTTP/1.1" 200 48190
+"GET /static/webapp/old-original/single-page/images/loading.GIF HTTP/1.1" 200 9389
+"GET /static/webapp/images/world-map.png HTTP/1.1" 200 3977
+"GET /static/webapp/images/portfolio/folio11.jpg HTTP/1.1" 200 152771
+"GET /static/webapp/images/portfolio/folio09.jpg HTTP/1.1" 200 57698
+"GET /static/webapp/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/webapp/fonts/Pe-icon-7-stroke.woff?-9uki6c HTTP/1.1" 200 23872
+"GET /static/webapp/images/bg/bg3.jpg HTTP/1.1" 200 298989
+"GET /static/webapp/images/bg/bg1.jpg HTTP/1.1" 200 659451
+"GET /static/webapp/images/marker.png HTTP/1.1" 200 581
+"GET / HTTP/1.1" 200 63306
+"GET / HTTP/1.1" 200 63306
+"GET /static/webapp/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/webapp/css/pe-icons.css HTTP/1.1" 200 7002
+"GET /static/webapp/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/webapp/css/prettyPhoto.css HTTP/1.1" 200 19888
+"GET /static/webapp/css/style.css HTTP/1.1" 200 43709
+"GET /static/webapp/css/animate.css HTTP/1.1" 200 61623
+"GET /static/webapp/js/jquery.js HTTP/1.1" 200 93106
+"GET /static/webapp/js/html5shiv.js HTTP/1.1" 200 2376
+"GET /static/webapp/js/respond.min.js HTTP/1.1" 200 4035
+"GET /static/webapp/js/custom.js HTTP/1.1" 200 1085
+"GET /static/webapp/js/plugins.js HTTP/1.1" 200 100201
+"GET /static/webapp/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/webapp/js/jquery.prettyPhoto.js HTTP/1.1" 200 35295
+"GET /static/webapp/js/init.js HTTP/1.1" 200 7134
+"GET /static/webapp/images/invi.png HTTP/1.1" 200 110197
+"GET /static/webapp/images/team/team02.jpg HTTP/1.1" 200 65393
+"GET /static/webapp/images/team/team01.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/team/team03.jpg HTTP/1.1" 200 47857
+"GET /static/webapp/images/portfolio/folio01.jpg HTTP/1.1" 200 40957
+"GET /static/webapp/images/team/team04.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/portfolio/folio05.jpg HTTP/1.1" 200 43410
+"GET /static/webapp/images/portfolio/folio03.jpg HTTP/1.1" 200 30357
+"GET /static/webapp/images/portfolio/folio06.jpg HTTP/1.1" 200 33329
+"GET /static/webapp/images/portfolio/folio02.jpg HTTP/1.1" 200 77082
+"GET /static/webapp/images/portfolio/folio07.jpg HTTP/1.1" 200 57631
+"GET /static/webapp/images/portfolio/folio04.jpg HTTP/1.1" 200 82659
+"GET /static/webapp/images/portfolio/folio09.jpg HTTP/1.1" 200 57698
+"GET /static/webapp/images/portfolio/folio08.jpg HTTP/1.1" 200 48190
+"GET /static/webapp/old-original/single-page/images/loading.GIF HTTP/1.1" 200 9389
+"GET /static/webapp/images/world-map.png HTTP/1.1" 200 3977
+"GET /static/webapp/images/portfolio/folio11.jpg HTTP/1.1" 200 152771
+"GET /static/webapp/fonts/Pe-icon-7-stroke.woff?-9uki6c HTTP/1.1" 200 23872
+"GET /static/webapp/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/webapp/images/bg/bg1.jpg HTTP/1.1" 200 659451
+"GET /static/webapp/images/bg/bg3.jpg HTTP/1.1" 200 298989
+"GET /static/webapp/images/bg/bg2.jpg HTTP/1.1" 200 183982
+"GET /static/webapp/images/marker.png HTTP/1.1" 200 581
+"GET / HTTP/1.1" 200 63306
+"GET /register/ HTTP/1.1" 200 22637
+"GET / HTTP/1.1" 200 63321
+"GET /static/webapp/images/bg/bg3.jpg HTTP/1.1" 200 298989
+"GET / HTTP/1.1" 200 63321
+"GET /static/webapp/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/webapp/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/webapp/css/pe-icons.css HTTP/1.1" 200 7002
+"GET /static/webapp/css/animate.css HTTP/1.1" 200 61623
+"GET /static/webapp/js/respond.min.js HTTP/1.1" 200 4035
+"GET /static/webapp/css/style.css HTTP/1.1" 200 43709
+"GET /static/webapp/css/prettyPhoto.css HTTP/1.1" 200 19888
+"GET /static/webapp/js/html5shiv.js HTTP/1.1" 200 2376
+"GET /static/webapp/js/jquery.js HTTP/1.1" 200 93106
+"GET /static/webapp/js/custom.js HTTP/1.1" 200 1085
+"GET /static/webapp/js/plugins.js HTTP/1.1" 200 100201
+"GET /static/webapp/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/webapp/js/jquery.prettyPhoto.js HTTP/1.1" 200 35295
+"GET /static/webapp/js/init.js HTTP/1.1" 200 7134
+"GET /static/webapp/images/team/team01.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/team/team04.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/team/team02.jpg HTTP/1.1" 200 65393
+"GET /static/webapp/images/team/team03.jpg HTTP/1.1" 200 47857
+"GET /static/webapp/images/portfolio/folio01.jpg HTTP/1.1" 200 40957
+"GET /static/webapp/images/invi.png HTTP/1.1" 200 110197
+"GET /static/webapp/images/portfolio/folio02.jpg HTTP/1.1" 200 77082
+"GET /static/webapp/images/portfolio/folio03.jpg HTTP/1.1" 200 30357
+"GET /static/webapp/images/portfolio/folio05.jpg HTTP/1.1" 200 43410
+"GET /static/webapp/images/portfolio/folio06.jpg HTTP/1.1" 200 33329
+"GET /static/webapp/images/portfolio/folio04.jpg HTTP/1.1" 200 82659
+"GET /static/webapp/images/portfolio/folio07.jpg HTTP/1.1" 200 57631
+"GET /static/webapp/images/portfolio/folio08.jpg HTTP/1.1" 200 48190
+"GET /static/webapp/images/portfolio/folio09.jpg HTTP/1.1" 200 57698
+"GET /static/webapp/images/world-map.png HTTP/1.1" 200 3977
+"GET /static/webapp/old-original/single-page/images/loading.GIF HTTP/1.1" 200 9389
+"GET /static/webapp/images/portfolio/folio11.jpg HTTP/1.1" 200 152771
+"GET /static/webapp/fonts/Pe-icon-7-stroke.woff?-9uki6c HTTP/1.1" 200 23872
+"GET /static/webapp/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/webapp/images/marker.png HTTP/1.1" 200 581
+"GET / HTTP/1.1" 200 63137
+"GET / HTTP/1.1" 200 63217
+"GET / HTTP/1.1" 200 63220
+"GET / HTTP/1.1" 200 63223
+"GET / HTTP/1.1" 200 63278
+"GET /static/webapp/images/invi.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 63278
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET / HTTP/1.1" 200 63151
+"GET / HTTP/1.1" 200 63269
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET / HTTP/1.1" 200 63318
+"GET / HTTP/1.1" 200 63318
+"GET / HTTP/1.1" 200 63318
+"GET /register/ HTTP/1.1" 200 22649
+"GET /register/ HTTP/1.1" 200 22649
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET / HTTP/1.1" 200 63318
+"GET /static/webapp/images/invi.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 63318
+"GET /static/webapp/js/init.js HTTP/1.1" 200 7179
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 63318
+"GET / HTTP/1.1" 200 63318
+"GET /static/webapp/js/init.js HTTP/1.1" 200 7308
+"GET / HTTP/1.1" 200 63318
+"GET / HTTP/1.1" 200 63318
+"GET / HTTP/1.1" 200 63318
+"GET /static/webapp/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/webapp/css/animate.css HTTP/1.1" 200 61623
+"GET /static/webapp/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/webapp/css/style.css HTTP/1.1" 200 43709
+"GET /static/webapp/css/prettyPhoto.css HTTP/1.1" 200 19888
+"GET /static/webapp/css/pe-icons.css HTTP/1.1" 200 7002
+"GET /static/webapp/js/jquery.js HTTP/1.1" 200 93106
+"GET /static/webapp/js/respond.min.js HTTP/1.1" 200 4035
+"GET /static/webapp/js/html5shiv.js HTTP/1.1" 200 2376
+"GET /static/webapp/js/custom.js HTTP/1.1" 200 1085
+"GET /static/webapp/js/plugins.js HTTP/1.1" 200 100201
+"GET /static/webapp/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/webapp/js/jquery.prettyPhoto.js HTTP/1.1" 200 35295
+"GET /static/webapp/js/init.js HTTP/1.1" 200 7308
+"GET /static/webapp/images/invi.png HTTP/1.1" 200 110197
+"GET /static/webapp/images/team/team03.jpg HTTP/1.1" 200 47857
+"GET /static/webapp/images/team/team02.jpg HTTP/1.1" 200 65393
+"GET /static/webapp/images/team/team01.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/portfolio/folio01.jpg HTTP/1.1" 200 40957
+"GET /static/webapp/images/team/team04.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/portfolio/folio03.jpg HTTP/1.1" 200 30357
+"GET /static/webapp/images/portfolio/folio02.jpg HTTP/1.1" 200 77082
+"GET /static/webapp/images/portfolio/folio05.jpg HTTP/1.1" 200 43410
+"GET /static/webapp/images/portfolio/folio06.jpg HTTP/1.1" 200 33329
+"GET /static/webapp/images/portfolio/folio08.jpg HTTP/1.1" 200 48190
+"GET /static/webapp/images/portfolio/folio07.jpg HTTP/1.1" 200 57631
+"GET /static/webapp/images/portfolio/folio04.jpg HTTP/1.1" 200 82659
+"GET /static/webapp/images/portfolio/folio09.jpg HTTP/1.1" 200 57698
+"GET /static/webapp/images/portfolio/folio11.jpg HTTP/1.1" 200 152771
+"GET /static/webapp/old-original/single-page/images/loading.GIF HTTP/1.1" 200 9389
+"GET /static/webapp/images/world-map.png HTTP/1.1" 200 3977
+"GET /static/webapp/fonts/Pe-icon-7-stroke.woff?-9uki6c HTTP/1.1" 200 23872
+"GET /static/webapp/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET / HTTP/1.1" 200 60297
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET /register/ HTTP/1.1" 200 22643
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET /register/ HTTP/1.1" 200 19711
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET /register/ HTTP/1.1" 200 19713
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 60299
+"GET /register/ HTTP/1.1" 200 19713
+"GET /register/ HTTP/1.1" 200 19711
+"GET / HTTP/1.1" 200 60297
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 60356
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/kamal/.local/lib/python2.7/site-packages/django/template/base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /images/bg/build.png
+"GET /images/bg/build.png HTTP/1.1" 404 3892
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET / HTTP/1.1" 200 60356
+"GET /static/webapp/css/bootstrap.min.css HTTP/1.1" 200 121457
+"GET /static/webapp/css/font-awesome.min.css HTTP/1.1" 200 31000
+"GET /static/webapp/css/pe-icons.css HTTP/1.1" 200 7002
+"GET /static/webapp/css/animate.css HTTP/1.1" 200 61623
+"GET /static/webapp/css/prettyPhoto.css HTTP/1.1" 200 19888
+"GET /static/webapp/css/style.css HTTP/1.1" 200 43709
+"GET /static/webapp/js/respond.min.js HTTP/1.1" 200 4035
+"GET /static/webapp/js/jquery.js HTTP/1.1" 200 93106
+"GET /static/webapp/js/html5shiv.js HTTP/1.1" 200 2376
+"GET /static/webapp/js/custom.js HTTP/1.1" 200 1085
+"GET /static/webapp/js/plugins.js HTTP/1.1" 200 100201
+"GET /static/webapp/js/bootstrap.min.js HTTP/1.1" 200 39680
+"GET /static/webapp/js/jquery.prettyPhoto.js HTTP/1.1" 200 35295
+"GET /static/webapp/js/init.js HTTP/1.1" 200 7308
+"GET /static/webapp/images/invi.png HTTP/1.1" 200 110197
+"GET /static/webapp/images/team/team01.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/team/team03.jpg HTTP/1.1" 200 47857
+"GET /static/webapp/images/team/team02.jpg HTTP/1.1" 200 65393
+"GET /static/webapp/images/portfolio/folio01.jpg HTTP/1.1" 200 40957
+"GET /static/webapp/images/team/team04.jpg HTTP/1.1" 200 68030
+"GET /static/webapp/images/portfolio/folio02.jpg HTTP/1.1" 200 77082
+"GET /static/webapp/images/portfolio/folio03.jpg HTTP/1.1" 200 30357
+"GET /static/webapp/images/portfolio/folio04.jpg HTTP/1.1" 200 82659
+"GET /static/webapp/images/portfolio/folio05.jpg HTTP/1.1" 200 43410
+"GET /static/webapp/images/portfolio/folio06.jpg HTTP/1.1" 200 33329
+"GET /static/webapp/images/portfolio/folio07.jpg HTTP/1.1" 200 57631
+"GET /static/webapp/images/portfolio/folio08.jpg HTTP/1.1" 200 48190
+"GET /static/webapp/images/portfolio/folio09.jpg HTTP/1.1" 200 57698
+"GET /static/webapp/images/portfolio/folio11.jpg HTTP/1.1" 200 152771
+"GET /static/webapp/old-original/single-page/images/loading.GIF HTTP/1.1" 200 9389
+"GET /static/webapp/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+"GET /static/webapp/fonts/Pe-icon-7-stroke.woff?-9uki6c HTTP/1.1" 200 23872
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/kamal/.local/lib/python2.7/site-packages/django/template/base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+Not Found: /images/bg/build.png
+"GET /images/bg/build.png HTTP/1.1" 404 3892
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET / HTTP/1.1" 200 60296
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET /register/ HTTP/1.1" 200 19710
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET /register/ HTTP/1.1" 200 19705
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET /static/webapp/images/invi.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 60291
+"GET / HTTP/1.1" 200 60296
+"GET / HTTP/1.1" 200 60296
+"GET / HTTP/1.1" 200 60296
+"GET / HTTP/1.1" 200 60284
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 60284
+"GET / HTTP/1.1" 200 60284
+"GET / HTTP/1.1" 200 60284
+"GET / HTTP/1.1" 200 60284
+"GET / HTTP/1.1" 200 60284
+"GET / HTTP/1.1" 200 60284
+"GET / HTTP/1.1" 200 60284
+"GET / HTTP/1.1" 200 60284
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 60284
+"GET / HTTP/1.1" 200 60284
+"GET /static/webapp/css/bootstrap.min.css.map HTTP/1.1" 404 1709
+"GET / HTTP/1.1" 200 60374
+"GET /static/webapp/images/bg/build.png HTTP/1.1" 200 41339
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 60415
+"GET / HTTP/1.1" 200 60530
+"GET / HTTP/1.1" 200 60457
+"GET / HTTP/1.1" 200 60503
+"GET /static/webapp/images/invi.png HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 60485
+"GET /static/webapp/js/init.js HTTP/1.1" 304 0
